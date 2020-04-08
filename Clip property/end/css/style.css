@@ -1,0 +1,40 @@
+/*
+lighter-white: #f9fde4 ;
+dark-color: #dc143c ;
+*/
+
+
+body {
+	background-color: #f9fde4;
+}
+
+.main {
+	background-color: #dc143c;
+	height: 90vh;
+	/*clip-path: polygon(40% 10%, 60% 10%, 60% 80%, 50% 70%, 40% 80%);*/
+	clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0%  100%);
+}
+
+.text-heading {
+	font-size: 250px;
+	background-image: url("../img/leaf.jpg");
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.text-content {
+	font-size: 25px;
+
+}
+
+.text-container {
+	text-align: center;
+
+}
+
+.text-part {
+	color: teal;
+	text-decoration: underline;
+}
+
+
